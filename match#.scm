@@ -17,7 +17,7 @@ match
 (##define-syntax match
   (lambda (src)
 
-    (define expansion-debug? #t)
+    (define expansion-debug? #f)
 
     (define use-question-mark-prefix-pattern-variables? #f)
 
